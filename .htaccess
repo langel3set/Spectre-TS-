@@ -1,0 +1,9 @@
+Options -Indexes
+
+# Redirigir 404 a nuestra página personalizada
+ErrorDocument 404 /spectre_erp/src/modules/general/views/404.php
+ErrorDocument 403 /spectre_erp/src/modules/general/views/403.php
+
+# PHP settings
+php_flag display_errors Off
+php_flag log_errors On
